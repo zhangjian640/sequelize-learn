@@ -13,6 +13,6 @@ const config = {
   charset:'utf8mb4'
 }
 }
-const seq = new Sequelize('koa2_weibo_db', 'root', 'zhangjian640', config)
+const seq = new Sequelize('koa2_weibo_db', 'root', '数据库密码', config)
 
 module.exports = seq
